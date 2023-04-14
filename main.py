@@ -15,7 +15,7 @@ intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
-TOKEN = "MTA5MzU0MTEzMzM2MTA5ODgzMg.Gb8C0q.29aLjZ2zbrTxug9US2O8VAfT9utNUdObj6t7Po"
+TOKEN = "BOT_TOKEN"
 bot = commands.Bot(command_prefix='!#', intents=intents)
 
 global con
